@@ -182,7 +182,7 @@ Resources:
       ExecutionRoleArn: !Ref ECSTaskExecutionRole
       ContainerDefinitions:
         - Name: hello
-          Image: ankitshahsoftvan/ecs:1.0.0
+          Image: mcr.microsoft.com/mcr/hello-world
           Cpu: 256
           Memory: 512
           PortMappings:
